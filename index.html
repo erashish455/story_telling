@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story telling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="middle">
+            <div class="header">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="body">
+                <div class="bodyHeader">
+                    <h1>Complete the form <br> Complete the story!</h1>
+                </div>
+                <div class="main-form">
+                    <form action="story.html" method="post" name="registration" class="register">
+                        <div>
+                            <label for="Animal">Animal:</label>
+                            <input type="text" id="first_animal_name" />
+                        </div>
+                        <div>
+                            <label for="Another animal">Another Animal:</label>
+                            <input type="text" id="second_animal_name" />
+                        </div>
+                        <div>
+                            <label for="one more animal">One More Animal:</label>
+                            <input type="text" id="third_animal_name" />
+                        </div>
+                        <div>
+                            <label for="adjective">Adjective(Past Tense):</label>
+                            <input type="text" id="adjective" />
+                        </div>
+                        <div>
+                            <label for="Verb">Verb(ends in -ing):</label>
+                            <input type="text" id="verb" />
+                        </div>
+                        <div>
+                            <label for="number">Number:</label>
+                            <input type="number" id="num" />
+                        </div>
+                        <div>
+                            <label for="yes or no">Yes or No:</label> Yes:
+                            <input type="radio" class="radio" id="decision" name="yesno" value="yes" />No:<input type="radio" class="radio" id="decision" name="yesno" value="no">
+                        </div>
+                        <div>
+                            <label for="relative speed">Relative Speed(ends in -er):</label>
+                            <input type="text" id="spd" />
+                        </div>
+                        <div>
+                            <label for="Motivational Quote">Motivational Quote:</label>
+                            <input type="text" id="quot" />
+                        </div>
+                        <div style="margin-top: 2px;">
+                            <label for="meaningful message">Meaningful Message:</label>
+                            <textarea rows="4" cols="35" id="mess"></textarea>
+                        </div>
+
+                        <input name="submit" type="submit" class="button" value="Form My Story" onclick="pass();" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+
+
+    <script>
+    </script>
+</body>
+
+</html>

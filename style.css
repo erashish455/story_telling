@@ -1,0 +1,147 @@
+.outer {
+    background-color: #eef213;
+    border: 2px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+}
+
+.header img {
+    width: 80%;
+    height: 150px;
+}
+
+.header {
+    text-align: center;
+    width: 50%;
+    height: 15%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin: 0px auto;
+}
+
+.body {
+    background-color: #fff0d0;
+    margin-top: 20px;
+    height: 85%;
+    border-radius: 50px;
+    width: 50%;
+    position: relative;
+    margin: 0px auto;
+}
+
+.bodyHeader {
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30%;
+}
+
+.form p {
+    line-height: 2;
+}
+
+.form label {
+    font-size: 22px;
+}
+
+.ashish {
+    padding: 12px;
+    width: 50%;
+}
+
+span {
+    font-style: italic;
+    color: blue;
+}
+
+body {
+    background-color: #e3a724;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+@media(min-width: 1100px) {
+    header {
+        margin-left: 0;
+    }
+}
+
+header {
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 400px;
+}
+
+img {
+    height: 100px;
+    width: 350px;
+}
+
+.heading {
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+}
+
+#form {
+    background-color: #FFF;
+    height: 800px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    margin-right: 15px;
+    float: left;
+}
+
+input {
+    height: 20px;
+    width: 300px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+
+.radio {
+    width: 100px;
+}
+
+.story-result {
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+    padding: 30px
+}
+
+.main-content {
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+}
